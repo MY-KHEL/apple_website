@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
         </div>
 
-        <div id="call-to-action" className=" mt-8 call-to-action flex flex-center flex-row opacity-0 translate-y-20 gap-4">
+        <div id="call-to-action" className=" mt-6 md:mt-0 call-to-action flex flex-center flex-row opacity-0 translate-y-20 gap-4">
 
         <a href="#highlight" className="btn "> Learn more  </a>
         <a href="#" className="btn-two  "> Buy </a>
