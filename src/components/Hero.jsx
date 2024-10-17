@@ -41,10 +41,10 @@ const Hero = () => {
 
     return ( 
     <>
-    <section className="w-full nav-height bg- relative">
-        <div className="h-5/6 w-full flex-center flex-col mt-8 ">
-        <p id="hero-title" className="hero-title">iPhone 16 Pro</p>
-        <p className="hero-title">Hello Apple Intelligence</p>
+    <section className="w-full nav-height bg- relative max-sm:h-3/6">
+        <div className="h-5/6 w-full flex-center flex-col max-sm:mt-5 ">
+        <p id="hero-title  " className="hero-title max-sm:mb-0 ">iPhone 16 Pro</p>
+        <p className="text-gray">Hello Apple Intelligence</p>
          <div className="md:w-10/12 w-9/12">
           <video className="pointer-events-none" autoPlay muted playsInline={true} key={videoSrc}>
             <source src={videoSrc} type="video/mp4" />
@@ -58,7 +58,7 @@ const Hero = () => {
         <a href="#" className="btn-two  "> Buy </a>
 
         </div>
-        <p className="text-sm pt-2 flex flex-center text-gray call-to-action opacity-0 translate-y-20">Apple Intelligence coming this fall<sup>1</sup></p>
+        <p className="text-sm  max-sm:pt4 pt-2 flex flex-center text-gray call-to-action opacity-0 translate-y-20">Apple Intelligence coming this fall<sup>1</sup></p>
        
     </section>
     </>
